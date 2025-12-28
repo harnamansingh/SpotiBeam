@@ -1,4 +1,4 @@
-# 🚀 SpotiBeam V7-Airborne: GodMode Edition
+# 🚀 SpotiBeam V7 - Feature Packed Music Download Tool
 
 **"Never gonna give you up. Never gonna let you down. Never gonna fail to download that track."**
 
@@ -7,6 +7,8 @@ SpotiBeam is a high-performance, fun TUI (Terminal User Interface) designed for 
 ---
 
 ## ✨ Features
+
+* **Bulk Download Support:** Can download Playlists and Albums too. Just make sure your Spotjfy playlist is public before downloading. If not,first make it public.
 * **GodMode Engine:** Intelligent fallback logic that cycles through **YouTube Music** → **Bandcamp** → **SoundCloud** until the mission is accomplished.
 * **Rescue Ops:** Built-in `yt-dlp` rescue protocols for those stubborn tracks that refuse to be found.
 * **Auto-Organized Media:** Everything is smartly sorted into folders (Tracks, Albums, Playlists) so you don't have to play digital janitor.
