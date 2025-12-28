@@ -275,14 +275,14 @@ class SpotiBeam:
         def log_source(track, source, note=""):
             try:
                 with open(sources_log, "a", encoding="utf-8") as s:
-                    ts = datetime.now(timezone.utc).isoformat()
+                    ts = datetime.now(timezone.utc).isoformat()  ##updated according to latest format
                     s.write(f"{ts} || {track} || {source} {('|| ' + note) if note else ''}\n")
             except Exception:
                 pass
 
         # iterate synchronously
         for idx, track in enumerate(track_list, start=1):
-            print(Fore.MAGENTA + f"\n🎵 Searching [{idx}/{len(track_list)}] {track}")
+            print(Fore.MAGENTA + f"\n🎵 Downloading [{idx}/{len(track_list)}] {track}")
 
             expected_name = self.expected_filename_for(track)
 
@@ -483,3 +483,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
