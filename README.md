@@ -2,7 +2,7 @@
 
 **"Never gonna give you up. Never gonna let you down. Never gonna fail to download that track."**
 
-SpotiBeam is a high-performance, fun TUI (Terminal User Interface) designed for the "OverLords" of music. Built to be **V7-Airborne** (light and deadly), it doesn't just download music; it conducts rescue missions for tracks other tools leave behind.
+SpotiBeam is a high-performance, fun TUI (Terminal User Interface) designed for the "OverLords" of music. It doesn't just download music; it conducts rescue missions for tracks other tools leave behind.
 
 ---
 
