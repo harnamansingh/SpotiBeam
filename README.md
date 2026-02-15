@@ -1,4 +1,4 @@
-# 🚀 SpotiBeam V7 - Feature Packed Music Download Tool
+# SpotiBeam V7 - Feature Packed Music Download Tool
 
 **"Never gonna give you up. Never gonna let you down. Never gonna fail to download that track."**
 
@@ -6,7 +6,7 @@ SpotiBeam is a high-performance, fun TUI (Terminal User Interface) designed for 
 
 ---
 
-## ✨ Features
+##  Features
 
 * **Bulk Download Support:** Can download Playlists and Albums too. Just make sure your Spotjfy playlist is public before downloading. If not,first make it public.
 * **GodMode Engine:** Intelligent fallback logic that cycles through **YouTube Music** → **Bandcamp** → **SoundCloud** until the mission is accomplished.
@@ -18,13 +18,13 @@ SpotiBeam is a high-performance, fun TUI (Terminal User Interface) designed for 
 * **Easter Eggs:** Includes built-in memes and Rick Astley ASCII art because life is too short for boring terminals.
 
 ---
-## 🎁 Versions
+##  Versions
 * **SpotiBeam_v7Ultra :**  My fastest tool yet. Visible Download Progress for each song. Multiple track simultaneous downloads (which is why in very large playlists, it randomly skips songs).
 * **SpotiBeam_v7Airborne:** Reliable. Dont show individual song progress on screen, hence lightweight. Downloads each song one by one, intead of a sudden burst, hence making it more stable. Due to this, takes more time to download,but reduces accidental track skipping.
 
 
 
-## 🛠️ Installation & Launch
+##  Installation & Launch
 
 I've made the setup as easy as possible. Linux users, I trust your instincts; Windows users, follow the light.
 
@@ -43,14 +43,14 @@ I've made the setup as easy as possible. Linux users, I trust your instincts; Wi
 > **Note:** On first launch, SpotiBeam will automatically detect and install missing dependencies like `spotdl` and `colorama` etc. 
 
 ---
-## 📱 Mobile Support (Termux)
+##  Mobile Support (Termux)
 SpotiBeam can run on Android via **Termux**, though this is considered an "Advanced" setup.
 
 * **Requirements:** You must install `python`, `ffmpeg`, and `binutils` within the Termux environment.
 * **Note:** Due to how Android handles file permissions, you may need to run `termux-setup-storage` to save music to your phone's internal memory.
 * **Support:** Since mobile environments vary wildly, you might have to do quite much research (unless you are a pro). If you get it working, you're an official OverLord.
 
-## 🛠️ Troubleshooting (The "Fix It" Corner)
+##  Troubleshooting (The "Fix It" Corner)
 
 | Problem | Likely Cause | Solution |
 | :--- | :--- | :--- |
@@ -62,13 +62,13 @@ SpotiBeam can run on Android via **Termux**, though this is considered an "Advan
 
 ---
 
-## 💡 Pro-Tips for OverLords
+##  Pro-Tips for OverLords
 * **The "Pilot" Run:** Always try a single track before throwing a 500-song playlist at it. I personally recommend downloading playlist/album with <100 tracks. My tool starts to slow down after it and it will randomly skip tracks then.
 * **Connection:** The very first download might take up to 5 minutes depending on your setup. Let it cook. If it is stuck even after 5 minutes, check troubleshooting section.
 * **Old PC Warning:** If you're on a "potato" PC and it's acting up, a system restart solves 99% of problems.
 * Download speed may vary device to device.
 ---
-## 🎧 Technical Note: Audio Quality (Bitrate)
+##  Technical Note: Audio Quality (Bitrate)
 SpotiBeam downloads audio at **128kbps** by default. 
 
 **Why not 320kbps?**
@@ -86,11 +86,11 @@ SpotiBeam downloads audio at **128kbps** by default.
  * SpotiBeam download the **native** source quality. This gives you the best possible sound at the smallest possible file size (approx. 3MB vs 8MB). No fake padding, no wasted space.
 ---
 
-## 📝 Personal Notes
+##  Personal Notes
 I initially designed SpotiBeam for my own personal use, but it worked so well for me (10GB+ downloaded in 4-5 hours which otherwise would have taken me days to manually do it with all the lrc files anf folder organisation!) that I had to share it. It’s not perfect, but it’s powerful and was made as a fun project only. **Use it wisely.**
 This is the 7th Iteration of my project SpotiBeam, but I am not uploading previous versions because they had a lot of missing features and bugs (Still functional, serve basic purpose, but lack features). 
 
-## 🙏 Credits
+## Credits
 * [spotdl](https://github.com/spotDL/spotify-downloader) - The engine that makes this possible.
 * [FFmpeg](https://ffmpeg.org/) - The industry standard for handling audio.
 
